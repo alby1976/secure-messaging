@@ -1,0 +1,17 @@
+Background
+According to Wikipedia Pretty Good Privacy (PGP) was developed by Phil Zimmermann in 1991
+to provide cryptographic privacy and authentication for data communication. This resulted
+in a secure communcations platform. 
+
+Problem
+Although PGP created a platform where information could only be read by the intended receiptent,
+it had no way of automatically deleted the information if the information was develivered to
+the wrong receiptent. Thereofre messages that were not delivered to the correct receiptent would
+have the possbility of being decrypted by brute force unless the unintended receiptent deletes
+the information.
+
+Solution - Project Goal
+I plan to use to use smart contracts to ensure messages that are sent from one person is 
+only read by the right person and if not it the message will be return to the sender as
+message undeliver if the intended receiptent does not validate the contract within a specific
+time period agreed upon between the two parties.
